@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+$grey: #cccccc
+
+body
+  margin: 0
+  padding: 0
+  font-family: 'Roboto', sans-serif
+
+.container
+  width: 1170px
+  margin: 0 auto
+  padding: 0 15px
+
+.notice
+  &.show
+    font-size: 16px
+    margin-bottom: 30px
+
+.products
+  padding: 50px 0
+  &-table
+    &_heading
+      li
+        font-weight: 700
+    ul
+      margin: 0
+      padding: 0
+      display: flex
+      border-right: 1px solid $grey
+      border-bottom: 1px solid $grey
+      li
+        list-style: none
+        text-align: center
+        border-left: 1px solid $grey
+        border-top: 1px solid $grey
+        padding: 20px 5px
+        box-sizing: border-box
+        font-size: 16px
+        &:first-child
+          flex-basis: 7%
+        &:nth-child(2)
+          flex-basis: 10%
+        &:nth-child(3)
+          flex-basis: 14%
+        &:nth-child(4)
+          flex-basis: 14%
+        &:nth-child(5)
+          flex-basis: 14%
+        &:nth-child(6)
+          flex-basis: 15%
+        &:nth-child(7)
+          flex-basis: 14%
+        &:nth-child(8)
+          flex-basis: 12%
+  &-quantity
+    display: flex
+    column-gap: 10px
+    align-items: center
+    justify-content: center
+    a
+      font-size: 16px
+      color: #000000
+      text-decoration: none
+      border: 1px solid $grey
+      border-radius: 50%
+      width: 25px
+      height: 25px
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: all .2s linear
+      &:hover
+        background: $grey
+        color: #ffffff

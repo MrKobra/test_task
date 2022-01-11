@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.notice.show {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.products {
+  padding: 50px 0;
+}
+.products-table_heading li {
+  font-weight: 700;
+}
+.products-table ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.products-table ul li {
+  list-style: none;
+  text-align: center;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.products-table ul li:first-child {
+  flex-basis: 7%;
+}
+.products-table ul li:nth-child(2) {
+  flex-basis: 10%;
+}
+.products-table ul li:nth-child(3) {
+  flex-basis: 14%;
+}
+.products-table ul li:nth-child(4) {
+  flex-basis: 14%;
+}
+.products-table ul li:nth-child(5) {
+  flex-basis: 14%;
+}
+.products-table ul li:nth-child(6) {
+  flex-basis: 15%;
+}
+.products-table ul li:nth-child(7) {
+  flex-basis: 14%;
+}
+.products-table ul li:nth-child(8) {
+  flex-basis: 12%;
+}
+.products-quantity {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.products-quantity a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s linear;
+}
+.products-quantity a:hover {
+  background: #cccccc;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
